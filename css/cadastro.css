@@ -1,0 +1,19 @@
+body{
+    background-image: linear-gradient(to bottom right,#58357B, #495fa7,#586dcd);    
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: aliceblue;    
+}
+
+.dados{
+    margin: 3rem;
+    
+}
+.campos input{
+    float: left;
+    clear: both;
+    margin-top: 1rem;
+}
+.seguranca{
+    margin: 3rem;
+}
