@@ -6,16 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cadastro Systema</title>
 </head>
-<body>
-          
-        <form action="/action_page.php">
-            <fieldset class="dados">
-                <legend>Dados pessoais</legend>  
-                <input type="text" id="nome" placeholder="Nome" autofocus required >
-                <input type="email" id="nome" placeholder="meu@email.com" required>
-            </fieldset>
-            
-         </form>
+<body>          
+    <form action="/action_page.php">
+        <fieldset class="dados">
+            <legend>Dados pessoais</legend>  
+            <input type="text" id="nome" placeholder="Meu nome" autofocus required >
+            <input type="email" id="e-mail" placeholder="meu@email.com" required>
+            <input type="text" id="cidade" placeholder="Cidade" required >
+            <input type="text" id="estado" placeholder="Estado" required >
+         </fieldset>
+        <fieldset class="dados">
+            <legend>Dados escolares</legend>                
+            <Div id="nvedu">
+                <label> 
+                    <input type="radio" id="niveleducacao">
+                    Ensino Infantil
+                </label>
+                <label> 
+                    <input type="radio" id="niveleducacao">
+                    Ensino Fundamental
+                </label>
+                <label> 
+                    <input type="radio" id="niveleducacao">
+                    Ensino Medio
+                </label>
+                <label> 
+                        <input type="radio" id="niveleducacao">
+                        Graduação
+                </label>
+                <label> 
+                        <input type="radio" id="niveleducacao">
+                        Pós-Graduação
+                </label>
+            </Div>
+            <input type="text" id="instituição" placeholder="Instituição" required>
+            <input type="text" id="cidade" placeholder="Cidade" required >
+            <input type="text" id="estado" placeholder="Estado" required >   
+        </fieldset>
+        <fieldset>
+            <legend>Segurança</legend>
+            <input type="text" id="Apelido" placeholder="Apelido" required >
+            <input type="text" id="senha" placeholder="Senha" required >
+        </fieldset>
+    </form>
    
 </body>
 </html>
