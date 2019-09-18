@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Login</title>
+        <link rel="stylesheet" href="css/login.css">
+    </head>
+    <body>
+        <div class="login">
+        <form method="POST" action="menu.html">
+            <h1>Login</h1>
+            <p>
+                <label for="email_login"></label>
+                <input type="email" placeholder="Seu e-mail">
+            </p>
+            <p>
+            <label for="senha_login"></label>
+                <input type="password" placeholder="Sua senha">
+            </p>
+            <p>
+                <input type="checkbox" name="manterlogado" id="manterlogado" value="">
+                <label for="manterlogado">Manter-me logado.</label>
+            </p>
+            <p>
+                <input id="acessar" class="logar" type="submit" placeholder="Acessar">
+                <a href="recupearSenha.js">Esqueceu sua senha?</a>
+                <a href="cadastro.html">Ainda não tem acesso? <strong>Cadastre-se</strong></a>
+            </p>
+        </form>
+        </div>
+        <script src="js/login.js"></script>
+    </body>
+</html>
