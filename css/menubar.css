@@ -1,28 +1,35 @@
+nav .memu {
+  position: relative;
+}
+
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.05);
-  }
-  li {
-      float: left;
-      text-transform: uppercase;
-  }
- .logo{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+li {
+  float: left;
+  text-transform: uppercase;
+}
+
+.logo {
   width: 46px;
   height: 44px;
   background-image: url(../img/mesalogo.png);
   border-radius: 100%;
- }
-  li a {
-    display: block;
-    color:rgba(240, 232, 232, 0.596);
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-    
-  }
- li a:hover{
-    color:rgba(240, 232, 232, 0.95);     
- }
+}
+
+li a {
+  display: block;
+  color: rgba(240, 232, 232, 0.596);
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: rgba(240, 232, 232, 0.95);
+}
