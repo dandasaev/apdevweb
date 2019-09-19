@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to bottom right,#58357B, #495fa7,#586dcd);    
+    background-image: linear-gradient(to bottom right,#49a8a4, #eaf1f0);    
     background-size: 100%;
     background-repeat: no-repeat;
     color: aliceblue;    
@@ -7,8 +7,7 @@ body{
 
 .dados{
     margin: 3rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4));
-      
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4));      
 }
 
 
