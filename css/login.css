@@ -1,5 +1,5 @@
 body {
-    background-color:  #000000;
+    background-color:  #eaf1f0;
     color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     width: 500px;
@@ -9,7 +9,7 @@ body {
 
 h1{
     font-size: 48px;
-    color: #066a75;
+    color: #045c41;
     padding: 10px 0;
     font-family: Arial,sans-serif;
     font-weight: bold;
@@ -23,12 +23,22 @@ h1:after{
     width: 100%;
     height: 2px;
     margin-top: 10px;
-    background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
+    background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgb(77, 138, 130) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
     background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
 }
 
+.recupearSenha {
+    float: right;
+    color: #007791;
+
+}
+
+.semConta{
+    color: #007791;
+}
+
 p{
-    margin-bottom:15px;
+    margin-bottom:5px;
 }
   
 p:first-child{
@@ -65,7 +75,7 @@ label{
   
 input:-moz-placeholder,
   textarea:-moz-placeholder{
-  color: #bebcbc;
+  color: #817d7d;
   font-style: italic;
   }
 
@@ -92,7 +102,7 @@ input:-moz-placeholder,
   input[type="submit"]{
   width: 100%!important;
   cursor: pointer;  
-  background: #3d9db3;
+  background: #3a9c8f;
   padding: 8px 5px;
   color: #fff;
   font-size: 20px;  
@@ -107,7 +117,7 @@ input:-moz-placeholder,
   }
 
   input[type="submit"]:hover{
-  background: #4ab3c6;
+  background: #4ac6b5;
   }
  
   .login{
@@ -116,7 +126,7 @@ input:-moz-placeholder,
   width: 88%;  
   padding: 18px 6% 60px 6%;
   margin: 0 0 35px 0;
-  background: rgb(247, 247, 247);
+
   
   -webkit-box-shadow: 5px;
   border-radius: 5px;
