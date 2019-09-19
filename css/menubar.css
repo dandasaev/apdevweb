@@ -7,11 +7,11 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: #045c42a2;
 }
 
 li {
-  float: left;
+  float: right;
   text-transform: uppercase;
 }
 
@@ -20,6 +20,7 @@ li {
   height: 44px;
   background-image: url(../img/mesalogo.png);
   border-radius: 100%;
+  float: left;
 }
 
 li a {
@@ -31,5 +32,5 @@ li a {
 }
 
 li a:hover {
-  color: rgba(240, 232, 232, 0.95);
+  color: rgba(240, 232, 232, 0.993);
 }
