@@ -1,8 +1,8 @@
-<link rel="stylesheet" href="css/recuperarSenha.css">
+<link rel="stylesheet" href="css/contato.css">
 <link rel="stylesheet" href="css/menubar.css">
 <link rel="stylesheet" href="css/index.css">
 
-<title>Recuperar Senha</title>
+<title>Contato</title>
 
 <div class="container">
 
@@ -10,30 +10,36 @@
             <ul>
                 <li class="logo"></li>
                 <li class="menul"> <a href="home.html">Home</a></li>
-                <li class="menul"> <a href="produtos.html">Contato</a></li>
+                <li class="menul"> <a href="contato.html">Contato</a></li>
                 <li class="menul"> <a href="#">A empresa</a></li>
                 <li class="menul"> <a href="sobre.html">Sobre</a></li>
                 <li class="menur"> <a href="suporte.html">Suporte</a></li>
                 <li class="menur"> <a href="cadastro.html">Cadastre-se</a></li>
+                <li class="menur"> <a href="login.html">Login</a></li>
             </ul>
     </nav>
 
     <form class="form" method="POST" action="menu.html">
 
-        <h1>Redefinir senha</h1>
+        <h1>Fale conosco</h1>
         <p>
-            <label for="email_login"></label>
-            <input type="email" placeholder="E-mail cadastrado">
+            <label for="nome"></label>
+            <input type="text" placeholder="Nome" required>
+        </p>
+        <p>
+            <label for="telefone"></label>
+            <input type="tel" placeholder="Telefone">
+        </p>
+            <label for="email"></label>
+            <input type="email" placeholder="E-mail" required>
+        <p>
+            <label for="assunto"></label>
+            <textarea class="mens" name="assunto" placeholder="Mensagem" required></textarea>
+            
         </p>
         <p>
             <input class="logar" type="submit" value="Enviar">
         </p>
-        
-        <div>
-            <p>
-                <a class="fazerLogin" href="login.html">Ou <strong>Fazer login</strong></a>
-            </p>
-        </div>
     </form>
     <footer class="rodape">
         &copy; APS Desenvolvimento Web
