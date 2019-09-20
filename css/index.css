@@ -88,3 +88,11 @@ a:hover {
     bottom: 0px;
     position: fixed;
 }
+
+menu {
+    float: right;
+}
+
+div.menuEs {
+    float: left;
+}
