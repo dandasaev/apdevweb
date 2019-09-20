@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,70 +9,72 @@
     <link rel="stylesheet" type="text/css" href="css/menubar.css">
     <title>Cadastro Systema</title>
 </head>
-<body>     
+
+<body>
     <nav class="menu">
-         <ul>
+        <ul>
             <li class="logo"></li>
-            <li class="menul"> <a href="home.html">Home</a></li>
-            <li class="menul"> <a href="contato.html">Contato</a></li>
-            <li class="menul"> <a href="#">A empresa</a></li>
-            <li class="menul"> <a href="sobre.html">Sobre</a></li>
-            <li class="menur"> <a href="suporte.html">Suporte</a></li>
-            <div class="menuEs">
-                <li class="menuL"> <a href="login.html"><strong>Login</strong></a></li>
-            </div>
+            <li class="menu"><a href="home.html">Home</a></li>
+            <li class="menu"><a href="contato.html">Contato</a></li>
+            <li class="menu"><a href="#">A empresa</a></li>
+            <li class="menu"><a href="sobre.html">Sobre</a></li>
+            <li class="menu"><a href="suporte.html">Suporte</a></li>
+            <li class="menu"><a href="cadastro.html"><strong>Cadastre-se</strong></a></li>
+            <li class="menu"><a href="login.html"><strong>Login</strong></a></li>
         </ul>
-    </nav>    
+    </nav>
     <form action="/action_page.php">
         <fieldset class="dados">
-            <legend>Dados pessoais</legend> 
-                <div class="campos">          
-                    <input type="text" id="nome" placeholder="Meu nome" autofocus required >
-                    <input type="email" id="email" placeholder="meu@email.com" required>
-                    <input type="text" id="cidade" placeholder="Cidade" required >
-                    <input type="text" id="estado" placeholder="Estado" required >
-                </div>   
-            </fieldset>
+            <legend>Dados pessoais</legend>
+            <div class="campos">
+                <input type="text" id="nome" placeholder="Meu nome" autofocus required>
+                <input type="email" id="email" placeholder="meu@email.com" required>
+                <input type="text" id="cidade" placeholder="Cidade" required>
+                <input type="text" id="estado" placeholder="Estado" required>
+            </div>
+        </fieldset>
         <fieldset class="dados">
-            <legend>Dados escolares</legend>                
+            <legend>Dados escolares</legend>
             <Div id="nvedu">
-                <label> 
+                <label>
                     <input type="radio" name="niveleducacao" id="edinf">
                     Ensino Infantil
                 </label>
-                <label> 
+                <label>
                     <input type="radio" name="niveleducacao" id="edfund">
                     Ensino Fundamental
                 </label>
-                <label> 
+                <label>
                     <input type="radio" nema="niveleducacao" id="edmedio">
                     Ensino Medio
                 </label>
-                <label> 
-                        <input type="radio" name="niveleducacao" id="edsup">
-                        Graduação
+                <label>
+                    <input type="radio" name="niveleducacao" id="edsup">
+                    Graduação
                 </label>
-                <label> 
-                        <input type="radio" name="niveleducacao" id="edpos">
-                        Pós-Graduação
+                <label>
+                    <input type="radio" name="niveleducacao" id="edpos">
+                    Pós-Graduação
                 </label>
-            </div >
+            </div>
             <div class="campos">
                 <input type="text" id="instituição" placeholder="Instituição" required>
-                <input type="text" id="cidade" placeholder="Cidade" required >
-                <input type="text" id="estado" placeholder="Estado" required >   
+                <input type="text" id="cidade" placeholder="Cidade" required>
+                <input type="text" id="estado" placeholder="Estado" required>
             </div>
         </fieldset>
         <fieldset class="dados">
             <legend>Segurança</legend>
             <div class="campos">
-                <input type="text" id="Apelido" placeholder="Apelido" required >
-                <input type="text" id="senha" placeholder="Senha" required >
+                <input type="text" id="Apelido" placeholder="Apelido" required>
+                <input type="text" id="senha" placeholder="Senha" required>
             </div>
         </fieldset>
     </form>
     <footer>
-        <a href="https://br.freepik.com/fotos-vetores-gratis/negocio">Negócio vetor criado por freepik - br.freepik.com</a>
+        <a href="https://br.freepik.com/fotos-vetores-gratis/negocio">Negócio vetor criado por freepik -
+            br.freepik.com</a>
     </footer>
 </body>
+
 </html>
