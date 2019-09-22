@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css/menubar.css">
-    <link rel="stylesheet" type="text/css" href="css/suporte.css">
+    <link rel="stylesheet" href="css/menubar.css">
+    <link rel="stylesheet" href="css/compartilhe.css">
     <title>Suporte e Ajuda</title>
 </head>
 
-<body>     
+<body>
     <nav class="menu">
         <ul>
             <li class="logo"></li>
@@ -23,27 +24,18 @@
             <li class="menu"><a href="login.html"><strong>Login</strong></a></li>
         </ul>
     </nav>
-    <form class="form" method="POST" action="menu.html">   
-        <h1>Como podemos ajudá-lo?</h1> 
-        <div id="divBusca">
-            <input type="text" id="txtBusca" placeholder="Buscar..."/>
-            <button id="btnBusca">Buscar</button>
+    <h1>Deseja compartilhar arquivos?</h1>
+    <form class="box" method="post" action="" enctype="multipart/form-data">
+        <div class="box__input">
+            Escolha o(s) arquivo(s) ou arraste e solte:<input class="box__file" type="file" name="files[]" id="file" data-multiple-caption="{count} files selected"
+                multiple />
+            <br><button class="box__button" type="submit">Enviar</button>
         </div>
+        <div class="box__uploading">Uploading&hellip;</div>
+        <div class="box__success">Done!</div>
+        <div class="box__error">Error! <span></span>.</div>
     </form>
-    <div>
-        <h2>Perguntas frequentes</h2>
-        <blockquote class="perg">
-            <p>Como criar um grupo</p>
-        </blockquote>
-        <blockquote class="perg">
-            <p><a href="#">Como achar um grupo</a></p>
-        </blockquote>
-        <blockquote class="perg">
-            <p><a href="#">Solução de problemas</a></p>
-        </blockquote>
-        <blockquote class="perg">
-            <p><a href="#">Como fazer download</a></p>
-        </blockquote>  
-    </div>
+
 </body>
+
 </html>
