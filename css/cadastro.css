@@ -1,22 +1,35 @@
 body{
-    background-image: linear-gradient(to bottom right,#49a8a4, #eaf1f0);    
+    background-color: #a8dbd8;    
     background-size: 100%;
     background-repeat: no-repeat;
-    color: aliceblue;    
+    color: aliceblue; 
+    display: flex;
+    flex-direction: column; 
+   
 }
-
+legend{
+    background-color: #a8dbd8;
+    border: .2rem ridge;
+}
 .dados{
     margin: 3rem;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4));      
+    color: black;
+
 }
 
-.campos input{
-    float: left;
-    clear: both;
-    margin-top: 1rem;
+input{
+     box-sizing: border-box;
+     display: flex;
+     flex-direction: column;
+     padding: 1%;      
+
 }
 
-div.menuEs {
-    float: left;
+button{
+    margin: 2rem 2rem;
 }
 
+button:hover{
+    background: #4ac6b5;  
+}
