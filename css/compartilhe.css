@@ -2,19 +2,22 @@ body {
     background-color:  #eaf1f0;   
 }
 
-.form {
-    width: 500px;
-    margin: 80px auto;
-}
+.ccenter{
+    align-content: center;
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+    margin-top: 3.2%;
+} 
 
 h1{ 
     font-size: 40px;
     color: #045c41;
-    padding: 3.2%;
+    padding: 3.5%;
     font-family: Arial,sans-serif;
     font-weight: bold;
     text-align: center;
     padding-bottom: 30px;
+    width: 705px;
 }
 
 h1:after{
@@ -27,6 +30,10 @@ h1:after{
     background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
 }
 
+.box{
+    margin-top: 100px;
+}
+
 .input_label {
     font-size: 25px;
     color: #3c3d3d;
@@ -35,22 +42,21 @@ h1:after{
     font-weight: bold;
     text-align: center;
     padding-bottom: 30px;
+    width: 705px;
 }
 
-.box{
-    margin-left: 33.33%;
-    margin-right: 33.33%;   
+.box__input{
+    width: 705px;
 }
 
 .box__file{
-    text-align: center;
-    align-content: center;
     margin-top: 10px;
     background-color:#E0EEEE;
     border:solid 2px #5F9EA0;
     border-radius:10px;
     padding: 100px;   
     font-size: 18x;
+    width: 500px;
 } 
 
 .box__file:hover{
@@ -60,7 +66,7 @@ h1:after{
 .box__button{
     margin-top: 10px;
     border-radius: 5px; 
-    width: 79.5%;
+    width: 705px;
     cursor: pointer;  
     background: #3a9c8f;
     padding: 8px 5px;
@@ -82,5 +88,10 @@ h1:after{
   display: none;
 }
 
-
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+outline: none;
+}
 

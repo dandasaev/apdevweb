@@ -23,17 +23,19 @@
             <li class="menu"><a href="login.html"><strong>Login</strong></a></li>
         </ul>
     </nav>
+    <div class="ccenter">
     <h1>Deseja compartilhar arquivos?</h1>
-    <form class="box" method="post" action="" enctype="multipart/form-data">
-        <div class="box__input">
-            <label class="input_label">Escolha o(s) arquivo(s) ou arraste e solte:</label><input class="box__file"
-                type="file" name="files[]" id="file" data-multiple-caption="{count} files selected" multiple />
-            <br><button class="box__button" type="submit">Enviar</button>
-        </div>
-        <div class="box__uploading">Uploading&hellip;</div>
-        <div class="box__success">Done!</div>
-        <div class="box__error">Error! <span></span>.</div>
-    </form>
+        <form class="box" method="post" action="" enctype="multipart/form-data">
+            <div class="box__input">
+                <label class="input_label">Escolha o(s) arquivo(s) ou arraste e solte:</label><input class="box__file"
+                    type="file" name="files[]" id="file" data-multiple-caption="{count} files selected" multiple />
+                <br><button class="box__button" type="submit">Enviar</button>
+            </div>
+            <div class="box__uploading">Uploading&hellip;</div>
+            <div class="box__success">Done!</div>
+            <div class="box__error">Error! <span></span>.</div>
+        </form>
+    </div>
     <script src="js/compartilhe.js"></script>
 </body>
 
