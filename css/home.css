@@ -1,7 +1,55 @@
-body{
-    background-image: linear-gradient(to bottom right,#49a8a4, #eaf1f0);    
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #a8dbd8;
     background-size: 100%;
     background-repeat: no-repeat;
-    color: aliceblue;    
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
+
+#main {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-top: 5px;
+}
+
+#menu_esquerda {
+    border: solid black .1em;
+    display: flexbox;
+    flex-direction: column;
+    width: 20%;
+    height: 50%;
+    font-size: 20px;
+}
+
+#area_central {
+    border: solid black .1em;
+    display: flexbox;
+    flex-direction: column;
+    width: 60%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#menu_direita {
+    display: flexbox;
+    flex-direction: column;
+    width: 20%;
+}
+
+#direita_cima {
+    border: solid black .1em;
+    margin-bottom: 10px;
+    height: 48.5%;
+}
+
+#direita_baixo {
+    border: solid black .1em;
+    height: 48.5%;
 }
