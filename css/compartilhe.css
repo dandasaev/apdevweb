@@ -27,12 +27,22 @@ h1:after{
     background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
 }
 
+.input_label {
+    font-size: 25px;
+    color: #3c3d3d;
+    padding: 10px 0;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
 .box{
     margin-left: 33.33%;
     margin-right: 33.33%;   
 }
 
-input{
+.box__file{
     text-align: center;
     align-content: center;
     margin-top: 10px;
@@ -43,13 +53,26 @@ input{
     font-size: 18x;
 } 
 
+.box__file:hover{
+    border:solid 2px #4ac6b5;
+}
 
 .box__button{
     margin-top: 10px;
-    font-size: 18px;
-    margin-left: 33.33%;
-    margin-right: 33.33%;
-    border-radius: 5px;     
+    border-radius: 5px; 
+    width: 79.5%;
+    cursor: pointer;  
+    background: #3a9c8f;
+    padding: 8px 5px;
+    color: #fff;
+    font-size: 20px;  
+    border: 1px solid #fff;  
+    margin-bottom: 10px;  
+    text-shadow: 0 1px 1px #333;
+}
+
+.box__button:hover{
+    background: #4ac6b5;
 }
 
 .box__dragndrop,
