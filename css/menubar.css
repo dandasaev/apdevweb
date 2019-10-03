@@ -19,11 +19,12 @@ li {
 }
 
 .logo {
-  width: 49px;
-  height: 49px;
+  width: 75px;
+  height: 46px;
   background-image: url(../img/UpStudyIcon.png);
-  border-radius: 100%;
   float: left;
+  margin-top: 2px;
+  margin-left: 2px;
 }
 
 li a {
