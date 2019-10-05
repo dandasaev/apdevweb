@@ -4,8 +4,9 @@ body {
 
 .ccenter {
     margin-top: 4.8%;
-    margin: 0 auto;
-    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
 }
 
 h1 {
@@ -15,7 +16,7 @@ h1 {
     font-weight: bold;
     text-align: center;
     padding-bottom: 30px;
-    width: 705px;
+    width: 100%;
 }
 
 h1:after {
@@ -40,11 +41,11 @@ h1:after {
     font-weight: bold;
     text-align: center;
     padding-bottom: 30px;
-    width: 705px;
+    width: 100%;
 }
 
 .box__input {
-    width: 705px;
+    width: 100%;
 }
 
 .box__file {
@@ -52,9 +53,11 @@ h1:after {
     background-color: #E0EEEE;
     border: solid 2px #5F9EA0;
     border-radius: 10px;
-    padding: 100px;
     font-size: 18x;
-    width: 500px;
+    box-sizing: border-box;
+    padding: 100px;
+    width: 100%; 
+
 }
 
 .box__file:hover {
@@ -64,7 +67,7 @@ h1:after {
 .box__button {
     margin-top: 10px;
     border-radius: 5px;
-    width: 705px;
+    width: 100%;
     cursor: pointer;
     background: #3a9c8f;
     padding: 8px 5px;
