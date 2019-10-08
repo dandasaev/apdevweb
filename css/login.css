@@ -1,3 +1,18 @@
+body {    
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: aliceblue; 
+    display: flex;
+    flex-direction: column; 
+}
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    color: rgba(240, 232, 232, 0.596);
+    list-style:none;
+}
+
 .form {
     width: 500px;
     margin: 80px auto;
@@ -55,3 +70,14 @@ input[type="submit"]:hover{
     background: #4ac6b5;
 }
 
+.manterlogado{
+    text-align: left;
+}
+
+.rodape{
+    margin: auto;
+    width: 100%;
+    bottom: 0px;
+    color: black;
+    text-align: left;
+ }

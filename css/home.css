@@ -1,55 +1,81 @@
-html {
-    height: 100%;
-}
-
 body {
-    background-color: #a8dbd8;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+    display: block;
+    background-color:  #eaf1f0;
+    padding:0px;
+    margin:0px
+}
+h1,
+h2,
+.subtitulo-principal {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    margin-bottom: 20px;
 }
 
-#main {
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    margin-top: 5px;
+.subtitulo-principal {
+    margin-top: -20px;
 }
 
-#menu_esquerda {
-    border: solid black .1em;
-    display: flexbox;
-    flex-direction: column;
-    width: 20%;
-    height: 50%;
+h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    text-shadow: 3px 3px #000;
+    margin-top: -2px;
+}
+
+.titulo-principal {
+    text-align: center;
+    background-color: #3a9c8f;
+    color: #FFF;
+    border-bottom: .2rem solid #000;
+}
+
+.foto-home { 
+    margin-top: 20px;
+    height: 100px;
+    width: 150px;
+    
+}
+.bemVindo p {
     font-size: 20px;
+    color: #99A;
+    line-height: 1;
+    padding: 2em;
 }
+.ou {
+    font-size: 30px;
+    color: #99A;
+}
+.bemVindo-inicio {
+    font-size: 40px;
+    color: #889;
 
-#area_central {
-    border: solid black .1em;
-    display: flexbox;
-    flex-direction: column;
-    width: 60%;
-    margin-right: 10px;
-    margin-left: 10px;
 }
-
-#menu_direita {
-    display: flexbox;
-    flex-direction: column;
-    width: 20%;
+.bemVindo strong {
+    font-size: 60px;
+    color: #000;
 }
-
-#direita_cima {
-    border: solid black .1em;
-    margin-bottom: 10px;
-    height: 48.5%;
+.secao-inicio {
+    text-align: center;
 }
-
-#direita_baixo {
-    border: solid black .1em;
-    height: 48.5%;
+.botao-index {
+    font-size: 1.25em;
+    background-color: #3a9c8f;
+    color: #FFF;
+    padding: .5em;
+    border: 2px solid black;
+    width: 40ch;
+    margin: 2em auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
 }
+.secao-inicio {
+    padding: 2em;
+}
+.rodape{
+    margin: auto;
+    width: 100%;
+    bottom: 0px;
+    color: black;
+    text-align: left;
+ }

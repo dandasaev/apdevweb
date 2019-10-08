@@ -1,0 +1,90 @@
+.foto-past {
+    height: 80px;
+    width: 80px;
+    border-radius: 70%;
+}
+.imagem {
+    width: 150px;
+    float: left;
+    text-align: center;
+    text-indent: 0;
+    margin: 50px;
+    color: #777;
+    margin-top: 100px;
+}
+.holder {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+a {
+    color: teal;
+    font-size: 30px;
+}
+
+a:link {
+    text-decoration: none;
+}
+.habilidades {
+    border-collapse: separate;
+    border-spacing: .25em;
+    margin: 1em 0;
+}
+
+.habilidades th {
+
+    color: rgb(0, 0, 0);
+    height: 40px;
+}
+
+.habilidades td {
+    background-color: rgb(112, 111, 111);
+}
+
+.habilidades th,
+.habilidades td {
+    padding: 1em;
+}
+
+.habilidades thead th {
+    background-color: #727272;
+}
+
+.habilidades [colspan] {
+    text-align: center;
+    font-style: italic;
+}
+.habilidades [rowspan] {
+    vertical-align: middle;
+}
+.logo {
+    width: 75px;
+    height: 46px;
+    background-image: url(../img/UpStudyIcon.png);
+    float: right;
+    margin-top: 2px;
+    margin-left: 2px;
+  }
+  ul #list-mat {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: row;
+  }
+  .rodape{
+    margin: auto;
+    width: 100%;
+    bottom: 0px;
+    color: black;
+    text-align: left;
+ }

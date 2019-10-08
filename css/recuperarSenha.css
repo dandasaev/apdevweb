@@ -27,5 +27,11 @@ input[type="submit"]:hover{
     background: #4ac6b5;
 }
 
-
+.rodape{
+    margin: auto;
+    width: 100%;
+    bottom: 0px;
+    color: black;
+    text-align: left;
+ }
  

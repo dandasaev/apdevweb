@@ -1,0 +1,77 @@
+.holder {
+    display: flex;
+    justify-content: center;
+}
+ 
+.materias,
+.documentos,
+.mais,
+.perg-resp {
+    height: 150px;
+    width: 150px;
+    border-radius: 70%;
+}
+
+.imagem {
+    width: 150px;
+    float: left;
+    text-align: center;
+    text-indent: 0;
+    margin: 50px;
+    color: #777;
+    margin-top: 100px;
+}
+
+a:link {
+    text-decoration: none
+}
+
+h2 {
+    color: teal;
+}
+body {
+    display: block;
+    background-color:  #eaf1f0;
+}
+h1,
+h2,
+.subtitulo-principal {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    margin-bottom: 20px;
+}
+
+.subtitulo-principal {
+    margin-top: -15px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-shadow: 3px 3px #000;
+    margin-top: -5px;
+}
+
+.titulo-principal {
+    background-color: #3a9c8f;
+    color: #FFF;
+    border-bottom: .1rem solid #000;
+}
+
+.menu {
+    text-align: left;
+    height: 60px;
+    width: 60px;
+}
+
+.home { 
+    margin-top: 20px;
+    height: 60px;
+    width: 100px; 
+}
+.rodape{
+    margin: auto;
+    width: 100%;
+    bottom: 0px;
+    color: black;
+    text-align: left;
+ }

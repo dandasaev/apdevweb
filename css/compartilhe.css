@@ -1,5 +1,7 @@
 body {
     background-color: #eaf1f0;
+    padding:0px;
+    margin:0px
 }
 
 .ccenter {
@@ -95,3 +97,10 @@ input:focus,
 textarea:focus {
     outline: none;
 }
+.rodape{
+    margin: auto;
+    width: 100%;
+    bottom: 0px;
+    color: black;
+    text-align: left;
+ }
